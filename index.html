@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Calculator</title>
+ <link rel="stylesheet" href="styles.css">
+ <script src="main.js"></script>
+</head>
+
+<body>
+ <div id="box">
+  <span id="display">0</span>
+  <div id="input">
+   <div id="numbers">
+    <div class="row">
+     <button onclick="updateDisplay(7)">7</button>
+     <button onclick="updateDisplay(8)">8</button>
+     <button onclick="updateDisplay(9)">9</button>
+    </div>
+    <div class="row">
+     <button onclick="updateDisplay(4)">4</button>
+     <button onclick="updateDisplay(5)">5</button>
+     <button onclick="updateDisplay(6)">6</button>
+    </div>
+    <div class="row">
+     <button onclick="updateDisplay(1)">1</button>
+     <button onclick="updateDisplay(2)">2</button>
+     <button onclick="updateDisplay(3)">3</button>
+    </div>
+    <div class="row">
+     <button onclick="updateDisplay(0)">0</button>
+     <button onclick="clearNum()">Clear</button>
+     <button onclick="enter()">=</button>
+    </div>
+   </div>
+   <div id="signs">
+    <button onclick="sign('+')">+</button>
+    <button onclick="sign('-')">-</button>
+    <button onclick="sign('*')">*</button>
+    <button onclick="sign('/')">/</button>
+    <button onclick="updateDisplay('.')">.</button>
+   </div>
+  </div>
+ </div>
+</body>
+
+</html>

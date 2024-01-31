@@ -1,0 +1,26 @@
+#box {
+ display: flex;
+ flex-direction: column;
+ max-width: 500px;
+}
+
+#display {
+ border: 1px solid black;
+ border-radius: 5px;
+}
+
+#input {
+ display: flex;
+ flex-direction: row;
+}
+
+button {
+ width: 115px;
+ height: 100px;
+ margin: 3px;
+}
+
+#signs {
+ display: flex;
+ flex-direction: column;
+}
